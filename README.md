@@ -1,5 +1,7 @@
 # userinput
 userinput is a simple rust library for checking the error during userinput<br>
+<br>
+<h3>UML DIAGRAM</h3>
 (https://github.com/carnot-engine/userinput/blob/master/uml/userinput.png)
 <br>
 eg:
