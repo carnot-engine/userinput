@@ -198,5 +198,6 @@ pub fn char() -> char {
     }
 }
 pub fn type_of<T>(_: T) -> &'static str {
+    print!("🔥");
     std::any::type_name::<T>()
 }
