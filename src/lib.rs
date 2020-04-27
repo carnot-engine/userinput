@@ -50,6 +50,19 @@ pub fn u64() -> u64 {
         }
     }
 }
+pub fn u32() -> u32 {
+    let input = string();
+    match input.trim().parse::<u32>() {
+        Ok(input) => {
+            println!("👌");
+            return input;
+        }
+        Err(er) => {
+            println!("😟 Failed to parse to u16\nError: {}\n🤗 try again..", er);
+            u32()
+        }
+    }
+}
 
 pub fn u16() -> u16 {
     let input = string();
